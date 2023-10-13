@@ -5,7 +5,7 @@
 const plugin_name = "controller support";
 const haveEvents = "ongamepadconnected" in window;
 const controllers = {};
-let isControllerVisible = false;
+let isControllerVisible = true;
 
 // Define predefined functions for each button
 const buttonFunctions = {
