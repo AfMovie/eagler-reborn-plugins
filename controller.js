@@ -294,7 +294,7 @@ document.addEventListener("keydown", (event) => {
 });
 
 // Toggle the controller UI visibility
-function toggleControllerVisibility() {
+function toggleControllerVisibility(true) {
   isControllerVisible = !isControllerVisible;
   const controllersDivs = document.querySelectorAll(".controller");
   controllersDivs.forEach((div) => {
